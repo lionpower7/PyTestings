@@ -1,15 +1,7 @@
-import CoreMC
+# Fibonacci - is a list of numbers which every number is a result of itself added to its previous number.
+# 0,1,1,2,3,5
+# 0 + 1 Makes 1, 1 + 1 Makes 2, 2 + 1 Makes 3 & etc...
 
-#Z-Ten : Functions
+from CoreMC import fibonate
 
-#Z-Ten Main : Program Logic
-def main():
-    start = int(input(" Press '1' to begin ... // "))
-
-    if start == 1:
-        print("Welcome To 'Z-Ten'")
-        measure = ['Capital Gains','Income']
-        timeframes = ['Daily','Weekly','Monthly','Yearly']
-
-if __name__ == "__main__":
-    main()
+amount = int(input("Enter The Amount Of Fibonacci Numbers You Wish To See: "))
