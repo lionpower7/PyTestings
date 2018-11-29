@@ -5,3 +5,4 @@
 from CoreMC import fibonate
 
 amount = int(input("Enter The Amount Of Fibonacci Numbers You Wish To See: "))
+fibonate(amount)
