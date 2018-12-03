@@ -10,5 +10,4 @@ if subject.upper() == 'PERSONAL':
     name = input("Person's First Name: ")
     sec_amount = int(input(f"How Many Securities Or Financial Vehicles Does {name} Have To Make Profit: "))
     for sec in range(sec_amount):
-        sec_ = input(f"{sec} Name: ")
-        
+        sec_ = input("Security Name: ")
